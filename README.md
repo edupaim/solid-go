@@ -20,7 +20,7 @@ Em 2002 Robert Martin publicou seu livro, _Agile Software Development, Principle
 
 ### Single Responsibility Principle / Princípio da Responsabilidade Única
 
-" A class should have one, and only one, reason to change." – Robert C Martin
+"A class should have one, and only one, reason to change." – Robert C Martin
 
 Sabemos que não existem classes no Go — Em vez disso, temos a noção muito mais poderosa de composição — Mas se você poder ignorar o uso da palavra classe, acho que tera muito mais valor aqui.
 
