@@ -10,7 +10,7 @@
 
 ## SOLID
 
-Em 2002 Robert Martin publicou seu livro, Agile Software Development, Principles, Patterns, and Practices. Nele, ele descreveu 5 princípios de design de software reusável, no qual ele chama de princípios SOLID:
+Em 2002 Robert Martin publicou seu livro, _Agile Software Development, Principles, Patterns, and Practices_. Nele, ele descreveu 5 princípios de design de software reusável, no qual ele chama de princípios SOLID:
 
 * Single Responsibility Principle
 * Open / Closed Principle
