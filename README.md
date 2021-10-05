@@ -36,6 +36,28 @@ Acoplamento é simplesmente uma palavra que descreve duas coisas mudando juntas 
 
 No contexto do software, coesão é a propriedade de descrever partes de código que são naturalmente atraídas umas pelas outras.
 
+#### Nome de Pacotes
+
+Em Go, todo o código reside dentro de um pacote, e um pacote bem projetado começa com seu nome. O nome de um pacote é uma descrição de sua finalidade e um prefixo de espaço de nome. Alguns exemplos de bons pacotes da biblioteca padrão Go podem ser:
+
+* _net/http_, que fornece clientes e servidores http.
+* _os/exec_, que executa comandos externos.
+* _encoding/json_, que implementa a codificação e decodificação de documentos JSON.
+
+Quando você usa os símbolos de outro pacote dentro do seu, isso é feito pela declaração `import`, que estabelece um acoplamento de nível de origem entre dois pacotes. Eles agora se conhecem.
+
+#### Nomes ruins de pacotes
+
+Esse foco em nomes não é apenas pedantismo. Um pacote mal nomeado perde a oportunidade de enumerar seu propósito, se é que algum dia teve um.
+
+O que o _server_ de pacotes oferece? … Bem, um servidor, espero, mas qual protocolo?
+
+O que o pacote _private_ oferece? Coisas que eu não deveria ver? Deve ter algum símbolo público?
+
+E o pacote _common_, assim como seu parceiro no crime, o pacote _utils_, costuma ser encontrado próximo a esses outros criminosos.
+
+Pegar todos os pacotes como esses se torna uma lixeira para a miscelânea, eles mudam com frequência e sem motivo, e por eles terem muitas responsabilidades.
+
 #### Referências
 
 Material de referência: [SOLID Go Design](https://dave.cheney.net/2016/08/20/solid-go-design)
